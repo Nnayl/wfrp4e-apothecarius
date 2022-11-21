@@ -1,0 +1,46 @@
+{
+  "id": "wfrp4e-apothecarius",
+  "title": "WFRP4e - (FanMade) Encyclopédie des potions, poisons et plantes",
+  "description": "(FanMade) Encyclopédie des potions, poisons et plantes",
+  "version": "1.0.0",
+  "author": [
+    {
+      "id": "Nnayl"
+    }
+  ],
+  "systems": ["wfrp4e"],
+  "compatibility" : {
+    "minimum": 9,
+    "verified": "10",
+    "maximum": "10"
+  },
+  "packs": [
+   {
+     "name": "recettes",
+     "label": "Recettes",
+     "path": "packs/recettes.db",
+     "type": "Item",
+     "module": "wfrp4e-apothecarius",
+     "system": "wfrp4e"
+   },
+   {
+     "name": "principes-actifs",
+     "label": "Principes Actifs",
+     "path": "packs/principes-actifs.db",
+     "type": "Item",
+     "module": "wfrp4e-apothecarius",
+     "system": "wfrp4e"
+   },
+   {
+    "name": "encyclopedie-des-potions-et-des-poisons",
+    "label": "Encyclopédie des Potions et des Poisons",
+    "path": "packs/encyclopedie-des-potions-et-des-poisons.db",
+    "type": "JournalEntry",
+    "module": "wfrp4e-apothecarius",
+    "system": "wfrp4e"
+  }
+ ],
+ "url": "https://github.com/Nnayl/wfrp4e-apothecarius",
+ "manifest": "https://raw.githubusercontent.com/Nnayl/wfrp4e-apothecarius/master/module.json",
+ "download": "https://github.com/Nnayl/wfrp4e-apothecarius/archive/refs/tags/1.0.0.zip"
+}
