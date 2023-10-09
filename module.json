@@ -2,17 +2,32 @@
   "id": "wfrp4e-apothecarius",
   "title": "WFRP4e - (FanMade) Apothecarius",
   "description": "(FanMade) Encyclopédie des potions, poisons et plantes",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "authors": [
     {
       "name": "Nnayl"
     }
   ],
-  "systems": ["wfrp4e"],
+  "relationships": {
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires" : [
+      {
+        "id": "compendium-folders",
+        "type": "module",
+        "compatibily" : {}
+      }
+    ]
+  },
   "compatibility" : {
     "minimum": 9,
-    "verified": "10",
-    "maximum": "10"
+    "verified": "11",
+    "maximum": "11"
   },
   "packs": [
    {
@@ -42,5 +57,5 @@
  ],
  "url": "https://github.com/Nnayl/wfrp4e-apothecarius",
  "manifest": "https://raw.githubusercontent.com/Nnayl/wfrp4e-apothecarius/master/module.json",
- "download": "https://github.com/Nnayl/wfrp4e-apothecarius/archive/refs/tags/1.0.3.zip"
+ "download": "https://github.com/Nnayl/wfrp4e-apothecarius/archive/refs/tags/1.0.4.zip"
 }
